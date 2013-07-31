@@ -101,6 +101,12 @@ public:
     int dot(Tensor B, Tensor & target);
     int dot(Tensor B);
 
+    //find(GT, thresh, tmpI, tmpY, tmpX, tmpS);
+    int find(bool GT, float thresh, vector<int> & tmpI, vector<int> & tmpY, vector<int> & tmpX, vector<float> & tmpS);
+
+
+
+    
     /*
      *
      * Matrix functions
